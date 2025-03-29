@@ -1,0 +1,5 @@
+name = "webdevhub"
+
+[build]
+command = "CI=false npm run build"
+output_dir = "build"
