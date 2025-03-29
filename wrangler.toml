@@ -1,5 +1,7 @@
 name = "webdevhub"
 
+[site]
+bucket = "build"
+
 [build]
 command = "CI=false npm run build"
-output_dir = "build"
