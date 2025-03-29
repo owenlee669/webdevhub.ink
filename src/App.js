@@ -7,7 +7,7 @@ import './styles/tailwind.css';
 
 const App = () => {
   return (
-    <Router basename="/">
+    <Router>
       <div className="app">
         <Navbar />
         <Routes>
